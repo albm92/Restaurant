@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ui.inicio.InicioFragment">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="314dp"
+        app:srcCompat="@drawable/_11" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="314dp"
+        android:layout_height="68dp"
+
+        android:hint="@string/usuario"
+        android:inputType="text"
+        android:textColor="#FAF6F6"
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="312dp"
+        android:layout_height="73dp"
+        android:hint="@string/prompt_password"
+        android:inputType="textPassword"
+        android:textColor="#F6F5F5"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/side_nav_bar"
+        android:text="Iniciar sesión"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp" />
+
+
+
+</LinearLayout>
